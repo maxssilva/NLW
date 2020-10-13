@@ -1,0 +1,26 @@
+/*regra css, a cascata faz com que o css adote o ultimo elemento igual*/
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    color:white;
+   }
+/*css mais forte é qdo as configurações de estilo vao estao no codigo*/
+
+
+:root{
+    font-size: 62.5%; /* dessa forma o tamanho da fonte é redimensionado para 
+    65% do tamanho da fonte padrão do navegador, que nesse caso é 18px*/
+}
+
+body, input, button, textarea{
+    /*--font-family: 'Nunito', sans-serif; retirado do fonts.google.com*/
+    font:400 1.8rem/1 'Nunito', sans-serif; /*o rem aqui busca o tamanho 
+    da fonte do item pai, "nesse caso o html"*/
+}
+
+

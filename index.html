@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- estrutura toda com um exclamação e enter-->
+<html lang="pt_br">
+  <!-- atributo de linguagem portugues brasil-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <!-- configuração com meta tags, não precisam fechar utf8 é o padrão-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- adaptação para dispositivos menores, como tablets e celulares
+    -->
+    <title>Happy</title>
+    <link rel="icon" href="./public/images/logo-icon.png" />
+    <!--href traz o caminho absoluto ou relativo; "./ inoforma que será acessado o diretorio raiz "
+     -->
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <!--link do css para o documento html-->   
+    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link rel="stylesheet" href="./public/css/paging-landing.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+    <!--o link acima redireciona a um codigo css com as fontes, retirado uma a uma do fonts.google.com-->
+  </head>
+
+  <body>
+    <div id="page-landing"> 
+      <div id="container"><!-- caixa que recebe tudo-->
+        <header>
+          <img 
+          class="animated-up"
+          id="logo" src="./public/images/logo.svg" alt="Logomarca de happy" />
+          <!--pesquisar .svg, alt é a descrição da imagem-->
+
+          <div class="location animated-up">
+            <strong> Rio do Sul</strong>
+            <!--texto com negrito??-->
+            <p>Santa Catarina</p>
+          </div>
+          <!--conteiner, caixas para divisão -->
+        </header>
+        <!--cabeçalho-->
+        <main>
+          <h1 class="animated-up">Leve felicidade para o mundo</h1>
+          <!--serve para formatação de títulos-->
+          <section class ="visit">
+            <p class="animated-up">Visita orfanatos e mude o dia de muitas crianças</p>
+            <a href="#" title="Visite orfanatos" class="animated-up">
+              <!--melhorar a dinâmica do site em mescanismos
+                         de busca, "descansar o mouse no link"-->
+              <img src="./public/images/arrow.svg" alt="ir para o mapa" />
+            </a>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
