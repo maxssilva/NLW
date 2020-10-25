@@ -3,11 +3,13 @@
 * {
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     height: 100vh;
     color:white;
+    background: #ebf2f5;
    }
 /*css mais forte é qdo as configurações de estilo vao estao no codigo*/
 
@@ -23,4 +25,7 @@ body, input, button, textarea{
     da fonte do item pai, "nesse caso o html"*/
 }
 
-
+.CONTATO{
+    align-items: right;
+    font-size: 50%;
+}

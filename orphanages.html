@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- estrutura toda com um exclamação e enter-->
+<html lang="pt_br">
+  <!-- atributo de linguagem portugues brasil-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <!-- configuração com meta tags, não precisam fechar utf8 é o padrão-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- adaptação para dispositivos menores, como tablets e celulares
+    -->
+    <title>Localize um orfanato | Happy</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    
+
+    <link rel="icon" href="./public/images/logo-icon.png" />
+    <!--href traz o caminho absoluto ou relativo; "./ inoforma que será acessado o diretorio raiz "
+     -->
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <!--link do css para o documento html-->   
+    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link rel="stylesheet" href="./public/css/page-orphanages.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!--o link acima redireciona a um codigo css com as fontes, retirado uma a uma do fonts.google.com-->
+  </head>
+
+  <body>
+   
+<div id="page-orphanages">
+<aside class="animate-right">
+  <header>
+    <img src="./public/images/map-marker.svg" alt="Happy">
+
+    <h2> Escolha um orfanato no mapa</h2>
+
+    <p>Muitas crianças estão esperando sua visita :)</p>
+  </header>
+  <footer>
+    <strong> Rio do Sul</strong>
+    <p>Santa Catarina</p>
+  </footer>
+</aside>
+
+<div id="mapid" class=animate-appear> </div>
+
+<a 
+href="create-orphanage.html" 
+class="create-orphanage" 
+
+title="Cadastre um orfanato"
+>
+  <img src="./public/images/plus.svg" alt="criar orfanato">
+
+</a>
+</div>
+<script src="./public/scripts/page-orphanages.js"></script>
+</body>
+  </body>
+</html>
