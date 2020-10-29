@@ -44,7 +44,7 @@ main{
 /*details*/
 .orphanage-details{
     width:70rem;
-    margin:6.4rem auto;
+    margin: 6.4rem auto;
     background: white;
     border:1px solid #d3e2e5;
   
@@ -69,7 +69,7 @@ main{
     background: none;
 
     height: 8.8rem;
-    cursor:pointer;
+    cursor: pointer;
     border-radius:2rem;
 
     overflow:hidden;
@@ -90,18 +90,18 @@ main{
     object-fit: cover;
 }
 
-.orphanages-detail-content{
+.orphanage-details-content{
     padding:8rem;
 }
 
-.orphanages-detail-content h1{
+.orphanage-details-content h1{
     color:#4d6f80;
     font-size: 5.4rem;
     line-height: 1.5;
     margin-bottom: 0.8rem;
 }
 
-.orphanages-detail-content p {
+.orphanage-details-content p {
     line-height: 1.6;
     color:#5c8599;
     margin-top:2.4rem;     
@@ -134,11 +134,11 @@ main{
 }
 
 .map-container .leaflet-container{
-    border-bottom: 1px soid #dde3f0;
+    border-bottom: 1px solid #dde3f0;
     border-radius: 2rem;
 }
 
-.orphanages-detail-content hr{
+.orphanage-details-content hr{
     width: 100%;
     height: 1px;
 
@@ -149,7 +149,7 @@ main{
     margin:6.4rem 0;
 }
 
-.orphanages-detail-content h2{
+.orphanage-details-content h2{
     font-size: 3.6rem;
     line-height: 1.5rem;
     color:#4d6f80;
@@ -159,12 +159,12 @@ main{
     margin-top: 2.4rem;
 
     display: grid;
-    grid-template-columns:repeat(2,1fr) /*o repeat copia o template 2x no modelo 1fr  == 1fr, 1fr*/;
+    grid-template-columns:1fr 1fr; /*o repeat copia o template 2x no modelo 1fr  == 1fr, 1fr*/;
     column-gap: 2rem;
 }
 
 .open-details div{
-    padding: 3.2rem 2.4 rem;    
+    padding: 3.2rem 2.4rem;    
 }
 
 .open-details img{
